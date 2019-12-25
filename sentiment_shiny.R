@@ -1,3 +1,6 @@
+##############################################################################
+# built shiny dashboard to visualize the change of sentiment of each TED Talk
+##############################################################################
 
 library(shiny)
 library(ggplot2)
