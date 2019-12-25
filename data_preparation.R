@@ -172,10 +172,10 @@ df$transcript <- tolower(df$transcript)
 df$transcript <- trimws(df$transcript)
 
 # replace funcky symbols
-df$transcript <- str_replace_all(df$transcript, 'â???"', ' ')
-df$transcript <- str_replace_all(df$transcript, 'â???', ' ')
-df$transcript <- str_replace_all(df$transcript, 'âT«', ' ')
-df$transcript <- str_replace_all(df$transcript, 'âT', ' ')
+df$transcript <- str_replace_all(df$transcript, 'Ã¢???"', ' ')
+df$transcript <- str_replace_all(df$transcript, 'Ã¢???', ' ')
+df$transcript <- str_replace_all(df$transcript, 'Ã¢TÂ«', ' ')
+df$transcript <- str_replace_all(df$transcript, 'Ã¢T', ' ')
 
 # remove Numbers (no need to consider decimal)
 df$transcript <- removeNumbers(df$transcript)
