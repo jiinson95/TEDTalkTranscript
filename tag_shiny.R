@@ -1,3 +1,7 @@
+#############################################################################
+# built R shiny dashbord to visualize sentiment of the talks per each topic
+#############################################################################
+
 library(shiny)
 library(ggplot2)
 library(plotly)
